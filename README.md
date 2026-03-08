@@ -83,25 +83,16 @@ Entidades principais planejadas:
 
 ```bash
 qualivox-platform/
-│
 ├── app/
 │   ├── Controllers/
 │   └── Models/
-│
 ├── public/
-│   ├── index.php
 │   └── assets/
 │       ├── css/
 │       ├── js/
 │       └── img/
-│
 ├── resources/
 │   └── views/
-│
-├── routes/
-│   └── web.php
-│
+├── routes/│
 ├── config/
-│   └── database.php
-│
 └── README.md
