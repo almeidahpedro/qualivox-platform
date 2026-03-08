@@ -1,74 +1,107 @@
 # 🎧 Qualivox Platform
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![Progresso](https://img.shields.io/badge/progresso-0%25-red)
-![Version](https://img.shields.io/badge/version-0.1.0-blue)
+![Status](https://img.shields.io/badge/status-planejamento-blue)
+![Version](https://img.shields.io/badge/version-0.1.0-informational)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-**Qualivox Platform** é uma plataforma web de monitoria e avaliação de atendimentos baseada em áudios, desenvolvida como projeto fullstack com foco em prática real de desenvolvimento, organização de código e evolução contínua.
+---
 
-O objetivo é simular um sistema utilizado em processos de qualidade e monitoria, permitindo registrar áudios analisados, aplicar critérios de avaliação e gerar notas para colaboradores.
+## 📊 Progresso do Projeto
 
-Este projeto é desenvolvido **exclusivamente para fins de estudo e aprendizado em desenvolvimento web.**
+![Progresso](https://img.shields.io/badge/Progresso-0%25-lightgrey)
 
 ---
 
-## 🚀 Funcionalidades
+## 🎯 Sobre o Projeto
 
-- 🎧 Registro de áudios para monitoria  
+O **Qualivox Platform** é um projeto fullstack que simula um sistema de **monitoria e avaliação de qualidade de atendimentos**, baseado na análise de áudios de interações entre colaboradores e clientes.
+
+A proposta é desenvolver uma aplicação estruturada como um produto real, permitindo registrar atendimentos analisados, aplicar critérios de avaliação e acompanhar o desempenho de colaboradores ao longo do tempo.
+
+O projeto também busca aplicar boas práticas de engenharia de software, incluindo:
+
+- Arquitetura organizada e escalável  
+- Modelagem eficiente de banco de dados  
+- Organização profissional do código  
+- Evolução incremental do sistema  
+
+---
+
+## 🎓 Natureza do Projeto
+
+Este é um projeto **voltado para fins educacionais e de portfólio**.
+
+Seus objetivos incluem:
+
+- Praticar desenvolvimento de aplicações web
+- Simular um sistema real de monitoria de qualidade
+- Aplicar boas práticas de arquitetura de software
+- Documentar o processo de desenvolvimento
+
+---
+
+## 🚀 Funcionalidades Planejadas
+
+- 🎧 Registro de áudios analisados  
 - 👤 Cadastro de colaboradores  
 - 📋 Criação de critérios de avaliação  
-- 📝 Aplicação de avaliação sobre o áudio  
-- 📊 Geração de nota automática baseada nos critérios  
+- 📝 Aplicação de avaliações em atendimentos  
+- ⭐ Geração de notas baseadas nos critérios  
 - 📜 Histórico de monitorias realizadas  
-- 🔎 Consulta de avaliações por colaborador  
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🔮 Funcionalidades Futuras
 
-- **Front-end:**  
-- **Back-end:**  
-- **Banco de Dados:**  
-- **Versionamento:** Git & GitHub  
+- 📊 Dashboard de desempenho de colaboradores  
+- 📈 Relatórios de qualidade de atendimento  
+- 🔍 Filtros e busca de monitorias  
+- 🔐 Sistema de autenticação de usuários  
 
-*(Tecnologias ainda em definição.)*
+---
+
+## 🛠️ Tecnologias
+
+*(A definir)*
 
 ---
 
 ## 🗄️ Estrutura Base do Banco de Dados
 
-Principais entidades:
+Entidades principais planejadas:
 
 - `users`
 - `employees`
 - `audios`
-- `evaluation_criteria`
 - `evaluations`
+- `evaluation_criteria`
 - `evaluation_scores`
-- `monitoring_history`
 
 ---
 
-## 📂 Estrutura de Pastas
+## 📂 Estrutura do Projeto
 
 ```bash
 qualivox-platform/
 │
-├── frontend/
-│   ├── assets/
-│   ├── css/
-│   ├── js/
-│   └── pages/
+├── app/
+│   ├── Controllers/
+│   └── Models/
 │
-├── backend/
-│   ├── controllers/
-│   ├── routes/
-│   ├── services/
-│   ├── models/
-│   └── config/
+├── public/
+│   ├── index.php
+│   └── assets/
+│       ├── css/
+│       ├── js/
+│       └── img/
 │
-├── database/
-│   └── schema.sql
+├── resources/
+│   └── views/
+│
+├── routes/
+│   └── web.php
+│
+├── config/
+│   └── database.php
 │
 └── README.md
